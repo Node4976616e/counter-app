@@ -2,17 +2,26 @@ h1 {
     padding: 1rem;
 }
 
+ul {
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
 .container {
-    background-color:rgb(197, 197, 197);
-    max-width: 400px;
-    min-height: 400px;
+    background-color: rgb(197, 197, 197);
+    max-width: 80%;
     margin: 0 auto;
     text-align: center;
     border-radius: 5%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.btn-main{
-    
+.btn-main {
+
     padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
