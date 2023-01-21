@@ -1,0 +1,15 @@
+.container {
+    background-color:rgb(197, 197, 197);
+    max-width: 400px;
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-main{
+    min-width: 6rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
