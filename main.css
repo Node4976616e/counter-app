@@ -8,10 +8,11 @@ h1 {
     min-height: 400px;
     margin: 0 auto;
     text-align: center;
+    border-radius: 5%;
 }
 
 .btn-main{
-    min-width: 6rem;
+    
     padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
