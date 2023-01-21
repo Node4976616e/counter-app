@@ -5,10 +5,17 @@ function increment () {
     document.getElementById("counter").innerText = count;
 }
 
-
-
-function countdown () {
-    for (let i = 5; i > 0; i--){
-        console.log(i);
-    }   
+function resetCount () {
+    if (count > 0) {
+        count = 0;
+        document.getElementById("counter").innerText = count;
+    }
+    else
+    {
+        alert("Can't reset counter, it is already at 0!")
+    }
 }
+
+
+
+
